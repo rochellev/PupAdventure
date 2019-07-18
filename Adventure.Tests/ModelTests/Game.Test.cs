@@ -8,10 +8,10 @@ namespace GameSpace.Test
     [TestClass]
     public class GameTest
     {
+        Game testGame = new Game();
         [TestMethod]
-        public void InitCorrect_True()
+        public void ConstructorTest_True()
         {
-            Game testGame = new Game();
             Assert.AreEqual("Sir", testGame.Name);
             testGame.Name = "TestName";
             Assert.AreEqual("TestName", testGame.Name);
@@ -19,6 +19,12 @@ namespace GameSpace.Test
             Game secondGame = new Game(apple);
             Assert.AreEqual(apple, secondGame.Name);
             
+        }
+        [TestMethod]
+        public void YesNoBranching_True()
+        {
+            Assert.AreEqual(true, testGame.CheckYes("yes"));
+           
         }
     }
 }
