@@ -1,13 +1,13 @@
-# Project
-### By Rochelle Roberts
+# PupAdventure
+### By Rochelle Roberts, Software Engineer
 -----
 
 ## Description
-* Project template for C# console apps
-* Unit testing set up too
+* Help your Pup find Treats in this Text-Based Adventure Game.
 
 ## Technologies Used
 * C#
+* .NET
 * MSTest
 
 ## Installation
@@ -15,7 +15,7 @@
 * From the project's root directory, open console and type dotnet run
 
 ```sh
-$ git clone 
+$ git clone https://github.com/rochellev/PupAdventure.git
 $ cd  
 $ dotnet run
 ```
